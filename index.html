@@ -351,8 +351,8 @@
       <p class="sb">Or call now: <a href="tel:+18779274968" style="color:var(--ink);font-weight:700">(877) 927-4968</a> &middot; <a href="tel:+18002297989" style="color:var(--ink);font-weight:700">(800) 229-7989</a></p>
       <form id="leadForm" novalidate>
         <div class="frow">
-          <div class="field"><label for="nm">Name</label><input id="nm" type="text" required></div>
-          <div class="field"><label for="ph">Phone</label><input id="ph" type="tel" required></div>
+          <div class="field"><label for="nm">Name</label><input id="nm" type="text" required autocomplete="name" aria-required="true"></div>
+          <div class="field"><label for="ph">Phone</label><input id="ph" type="tel" required autocomplete="tel" aria-required="true"></div>
         </div>
         <div class="field"><label for="need">Type of case</label>
           <select id="need"><option value="">Select</option><option>Car accident</option><option>Truck accident</option><option>Motorcycle accident</option><option>Uber or rideshare accident</option><option>Wrongful death</option><option>Brain injury</option><option>Not sure, need a review</option></select>
